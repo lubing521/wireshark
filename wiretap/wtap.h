@@ -253,6 +253,7 @@ extern "C" {
 #define WTAP_ENCAP_BLUETOOTH_LINUX_MONITOR      160
 #define WTAP_ENCAP_BLUETOOTH_BREDR_BB           161
 #define WTAP_ENCAP_BLUETOOTH_LE_LL_WITH_PHDR    162
+#define WTAP_ENCAP_KDBUS                        0x1234
 /* After adding new item here, please also add new item to encap_table_base array */
 
 #define WTAP_NUM_ENCAP_TYPES                    wtap_get_num_encap_types()

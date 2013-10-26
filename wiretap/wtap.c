@@ -702,6 +702,9 @@ static struct encap_type_info encap_table_base[] = {
 
         /* WTAP_ENCAP_BLUETOOTH_LE_LL_WITH_PHDR */
         { "Bluetooth Low Energy Link Layer RF", "bluetooth-le-ll-rf" },
+
+	/* WTAP_ENCAP_KDBUS */
+	{ "kdbus", "kdbus" },
 };
 
 WS_DLL_LOCAL
