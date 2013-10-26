@@ -32,7 +32,7 @@ endif
 
 
 if HAVE_WARNINGS_AS_ERRORS
-AM_CLEAN_CFLAGS = -Werror
+#AM_CLEAN_CFLAGS = -Werror
 endif
 
 bin_PROGRAMS = \

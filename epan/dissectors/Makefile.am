@@ -33,7 +33,7 @@ libdirtydissectors_la_SOURCES = \
 	$(DIRTY_PIDL_DISSECTOR_SRC)
 
 if HAVE_WARNINGS_AS_ERRORS
-AM_CLEAN_CFLAGS = -Werror
+#AM_CLEAN_CFLAGS = -Werror
 endif
 
 libfiledissectors_la_SOURCES = \
