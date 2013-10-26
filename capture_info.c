@@ -361,6 +361,9 @@ capture_info_packet(packet_counts *counts, gint wtap_linktype, const guchar *pd,
         /* XXX - some ATM drivers on FreeBSD might prepend a 4-byte ATM
            pseudo-header to DLT_ATM_RFC1483, with LLC header following;
            we might have to implement that at some point. */
+    case WTAP_ENCAP_KDBUS:
+        //capture_kdbus(pd, caplen, count);
+        break;
     }
 }
 

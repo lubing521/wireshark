@@ -766,6 +766,7 @@ DISSECTOR_SRC = \
 	packet-k12.c		\
 	packet-kadm5.c		\
 	packet-kafka.c		\
+	packet-kdbus.c		\
 	packet-kdp.c		\
 	packet-kdsp.c		\
 	packet-kerberos.c	\
@@ -1476,6 +1477,7 @@ DISSECTOR_INCLUDES =	\
 	packet-isup.h	\
 	packet-iwarp-ddp-rdmap.h \
 	packet-jxta.h	\
+	packet-kdbus.h	\
 	packet-kerberos.h	\
 	packet-klm.h	\
 	packet-l2tp.h	\
